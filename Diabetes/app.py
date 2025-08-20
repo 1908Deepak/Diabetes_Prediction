@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-def load_model(model_path = 'E:/Dabetes_prediction/Diabetes/diabetes_model.sav'):
+def load_model(model_path = 'diabetes_model.sav'):
     """
     Load the saved machine learning model from the specified file path.
 
@@ -96,5 +96,5 @@ def main():
 # Entry point for the script
 if __name__ == '__main__':
     # Load the model at the start
-    loaded_model = load_model('E:/Diabetes_prediction/Diabetes/diabetes_model.sav')
+    loaded_model = load_model('diabetes_model.sav')
     main()

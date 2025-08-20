@@ -27,7 +27,7 @@ with header:
 with dataset:
     st.header("NYC TAXi dataset")
     st.text("the dataset")
-    diabetes = pd.read_csv('Diabetes/diabetes.csv')
+    diabetes = pd.read_csv('diabetes.csv')
     data = load_data('filepath')
     st.write(diabetes.head())
 
