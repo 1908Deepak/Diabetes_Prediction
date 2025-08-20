@@ -98,3 +98,4 @@ if __name__ == '__main__':
     # Load the model at the start
     loaded_model = load_model('diabetes_model.sav')
     main()
+
