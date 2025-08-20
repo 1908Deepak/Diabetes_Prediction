@@ -19,13 +19,11 @@ def load_data(file):
     return data
 
 with header:
-    st.title("welme to the project")
-    st.text("In this project I look inot the transaction of ")
+    st.title("welcome to the project")
 
 
 
 with dataset:
-    st.header("NYC TAXi dataset")
     st.text("the dataset")
     diabetes = pd.read_csv('diabetes.csv')
     data = load_data('filepath')
@@ -78,5 +76,6 @@ with modelTraining:
 
     disp_col.subheader("R2 Score")
     disp_col.write(r2_score(y,prediction))
+
 
 
